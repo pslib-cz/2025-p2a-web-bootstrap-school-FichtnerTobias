@@ -130,15 +130,15 @@
   <h2 class="mb-4">Nadcházející události</h2>
   <div class="list-group col-6">
 
-    <!-- 1. událost -->
+    
     <div class="list-group-item d-flex justify-content-between align-items-center">
       <div class="d-flex align-items-center">
-        <!-- Datum -->
+        
         <div class="text-center border rounded p-2 me-3" style="width:60px;">
           <div class="fw-bold">12</div>
           <small>Říj</small>
         </div>
-        <!-- Text -->
+        
         <div>
           <h6 class="mb-1">Workshop – Základy UX</h6>
           <small class="text-muted">Ateliér A2, 14:00–17:00</small>
@@ -274,22 +274,35 @@
 <section class="container my-5">
   <h2 class="mb-4">Kontakt</h2>
   <div class="row">
-    <div class="col-md-6">
-      <form>
-        <div class="mb-3"><input type="text" class="form-control" placeholder="Jméno"></div>
-        <div class="mb-3"><input type="email" class="form-control" placeholder="E-mail"></div>
-        <div class="mb-3"><input type="text" class="form-control" placeholder="Předmět"></div>
-        <div class="mb-3"><textarea class="form-control" rows="4" placeholder="Zpráva"></textarea></div>
-        <div class="form-check mb-3"><input class="form-check-input" type="checkbox" id="consent"><label class="form-check-label" for="consent">Souhlasím se zpracováním osobních údajů</label></div>
-        <button class="btn btn-primary">Odeslat</button>
-        <button type="reset" class="btn btn-secondary">Reset</button>
-      </form>
+    <div class="col-md-6 card">
+      <div class="card-body">
+        <h4>Napište nám</h4>
+        <form>
+          <div class="d-flex ">
+            <div class="mb-3 col-5 w-50"><input type="text" class="form-control" placeholder="Jméno"></div>
+            <div class="mb-3 col-5 ms-3 w-50"><input type="email" class="form-control" placeholder="E-mail"></div>
+          </div>
+          <div class="mb-3"><input type="text" class="form-control" placeholder="Předmět"></div>
+          <div class="mb-3"><textarea class="form-control" rows="4" placeholder="Zpráva"></textarea></div>
+          <div class="form-check mb-3"><input class="form-check-input" type="checkbox" id="consent"><label class="form-check-label" for="consent">Souhlasím se zpracováním osobních údajů</label></div>
+          <button class="btn btn-primary">Odeslat</button>
+          <button type="reset" class="btn btn-secondary">Reset</button>
+        </form>
+      </div>
     </div>
-    <div class="col-md-6">
-      <h5>Adresa</h5>
-      <p>U Digitálu 12, 460 01 Liberec</p>
-      <h5>Kontakt</h5>
-      <p><a href="tel:+420123456789">+420 123 456 789</a><br><a href="mailto:info@sosdigital.cz">info@sosdigital.cz</a></p>
+    <div class="col-md-6 d-flex h-100 ">
+      <div class="card col-5 ">
+        <div class="card-body">
+          <h5>Adresa</h5>
+          <p>U Digitálu 12, 460 01 Liberec</p>
+        </div>
+      </div>
+      <div class="card col-5">
+        <div class="card-body">
+          <h5>Kontakt</h5>
+          <p><a href="tel:+420123456789">+420 123 456 789</a><br><a href="mailto:info@sosdigital.cz">info@sosdigital.cz</a></p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -299,7 +312,7 @@
   <div class="container d-flex justify-content-between flex-wrap">
     <div>
       <p class="mb-1">SOŠ Digital</p>
-      <small>Moderní vzdělávání v IT, designu a digitálních médiích.</small>
+      <small class="text-light">Moderní vzdělávání v IT, designu a digitálních médiích. Studujte u nás, jme vaše jednička! <br> <br> <br> <br> <br>  &copy; 2025 SOŠ Digital.</small>
     </div>
     <div>
       <h6>Navigace</h6>
